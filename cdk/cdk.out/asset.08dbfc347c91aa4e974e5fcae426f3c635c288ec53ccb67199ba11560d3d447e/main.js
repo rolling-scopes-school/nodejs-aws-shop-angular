@@ -3414,6 +3414,16 @@
             const url = `${apiGatewayUrl}`;
             return this.http.get(url);
           }
+          // getProducts(): Observable<Product[]> {
+          //   if (!this.endpointEnabled('bff')) {
+          //     console.warn(
+          //       'Endpoint "bff" is disabled. To enable change your environment.ts config'
+          //     );
+          //     return this.http.get<Product[]>('/assets/products.json');
+          //   }
+          //   const url = this.getUrl('bff', 'products');
+          //   return this.http.get<Product[]>(url);
+          // }
           getProductsForCheckout(ids) {
             if (!ids.length) {
               return (0, rxjs__WEBPACK_IMPORTED_MODULE_3__.of)([]);
@@ -3423,12 +3433,6 @@
                 products.filter((product) => ids.includes(product.id))
               )
             );
-          }
-          importProducts(fileName) {
-            const apiGatewayUrl =
-              "https://2m3lsovje6.execute-api.eu-west-1.amazonaws.com/prod/import";
-            const url = `${apiGatewayUrl}?name=${fileName}`;
-            return this.http.get(url);
           }
         }
         ProductsService.ɵfac = /*@__PURE__*/ (function () {
@@ -3478,14 +3482,14 @@
             product: "https://.execute-api.eu-west-1.amazonaws.com/dev",
             order: "https://.execute-api.eu-west-1.amazonaws.com/dev",
             import:
-              "https://csox312aqc.execute-api.eu-west-1.amazonaws.com/prod/",
-            bff: "https://.execute-api.eu-west-1.amazonaws.com/dev",
+              "https://0ow5tmvkxl.execute-api.eu-west-1.amazonaws.com/prod",
+            bff: "https://zbb338g8f1.execute-api.eu-west-1.amazonaws.com/prod",
             cart: "https://.execute-api.eu-west-1.amazonaws.com/dev",
           },
           apiEndpointsEnabled: {
             product: false,
             order: false,
-            import: false,
+            import: true,
             bff: false,
             cart: false,
           },

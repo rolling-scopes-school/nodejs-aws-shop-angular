@@ -442,13 +442,13 @@
                   "version": "1.204.0"
                 }
               },
-              "b96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53": {
-                "id": "b96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53",
-                "path": "MyJSCCStaticWebsite/AssetParameters/b96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53",
+              "08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447e": {
+                "id": "08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447e",
+                "path": "MyJSCCStaticWebsite/AssetParameters/08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447e",
                 "children": {
                   "S3Bucket": {
                     "id": "S3Bucket",
-                    "path": "MyJSCCStaticWebsite/AssetParameters/b96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53/S3Bucket",
+                    "path": "MyJSCCStaticWebsite/AssetParameters/08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447e/S3Bucket",
                     "constructInfo": {
                       "fqn": "@aws-cdk/core.CfnParameter",
                       "version": "1.204.0"
@@ -456,7 +456,7 @@
                   },
                   "S3VersionKey": {
                     "id": "S3VersionKey",
-                    "path": "MyJSCCStaticWebsite/AssetParameters/b96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53/S3VersionKey",
+                    "path": "MyJSCCStaticWebsite/AssetParameters/08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447e/S3VersionKey",
                     "constructInfo": {
                       "fqn": "@aws-cdk/core.CfnParameter",
                       "version": "1.204.0"
@@ -464,7 +464,7 @@
                   },
                   "ArtifactHash": {
                     "id": "ArtifactHash",
-                    "path": "MyJSCCStaticWebsite/AssetParameters/b96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53/ArtifactHash",
+                    "path": "MyJSCCStaticWebsite/AssetParameters/08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447e/ArtifactHash",
                     "constructInfo": {
                       "fqn": "@aws-cdk/core.CfnParameter",
                       "version": "1.204.0"
@@ -559,7 +559,7 @@
                                           },
                                           ":s3:::",
                                           {
-                                            "Ref": "AssetParametersb96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53S3Bucket069AC6DC"
+                                            "Ref": "AssetParameters08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447eS3BucketD807BA5D"
                                           }
                                         ]
                                       ]
@@ -574,7 +574,7 @@
                                           },
                                           ":s3:::",
                                           {
-                                            "Ref": "AssetParametersb96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53S3Bucket069AC6DC"
+                                            "Ref": "AssetParameters08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447eS3BucketD807BA5D"
                                           },
                                           "/*"
                                         ]

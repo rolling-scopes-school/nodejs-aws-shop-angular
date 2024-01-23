@@ -41,7 +41,7 @@
               "new AwsCliLayer (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\lambda-layer-awscli\\lib\\awscli-layer.js:14:9)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:81:22)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -77,7 +77,7 @@
               "new SingletonFunction (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-lambda\\lib\\singleton-lambda.js:32:36)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:78:25)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -90,13 +90,13 @@
           {
             "type": "aws:cdk:asset",
             "data": {
-              "path": "asset.b96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53",
-              "id": "b96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53",
+              "path": "asset.08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447e",
+              "id": "08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447e",
               "packaging": "zip",
-              "sourceHash": "b96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53",
-              "s3BucketParameter": "AssetParametersb96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53S3Bucket069AC6DC",
-              "s3KeyParameter": "AssetParametersb96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53S3VersionKey4BC7DDDE",
-              "artifactHashParameter": "AssetParametersb96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53ArtifactHash25CB8891"
+              "sourceHash": "08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447e",
+              "s3BucketParameter": "AssetParameters08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447eS3BucketD807BA5D",
+              "s3KeyParameter": "AssetParameters08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447eS3VersionKey82B48494",
+              "artifactHashParameter": "AssetParameters08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447eArtifactHashBEC02B33"
             },
             "trace": [
               "ConstructNode.addMetadata (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.js:416:62)",
@@ -112,7 +112,7 @@
               "Array.map (<anonymous>)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:101:39)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -130,7 +130,7 @@
             "trace": [
               "new OriginAccessIdentity (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-cloudfront\\lib\\origin-access-identity.js:45:25)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:13:27)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -148,7 +148,7 @@
             "trace": [
               "new Bucket (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:666:26)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:14:24)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -167,7 +167,7 @@
               "new BucketPolicy (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket-policy.js:45:25)",
               "Bucket.addToResourcePolicy (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:169:27)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:20:16)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -185,7 +185,7 @@
             "trace": [
               "new CloudFrontWebDistribution (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-cloudfront\\lib\\web-distribution.js:326:30)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:31:26)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -205,7 +205,7 @@
               "new AwsCliLayer (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\lambda-layer-awscli\\lib\\awscli-layer.js:14:9)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:81:22)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -224,7 +224,7 @@
               "new CustomResource (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\core\\lib\\custom-resource.js:49:25)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:117:19)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -253,7 +253,7 @@
               "new AwsCliLayer (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\lambda-layer-awscli\\lib\\awscli-layer.js:14:9)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:81:22)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -282,7 +282,7 @@
               "new AwsCliLayer (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\lambda-layer-awscli\\lib\\awscli-layer.js:14:9)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:81:22)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -311,7 +311,7 @@
               "new AwsCliLayer (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\lambda-layer-awscli\\lib\\awscli-layer.js:14:9)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:81:22)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -341,7 +341,7 @@
               "new SingletonFunction (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-lambda\\lib\\singleton-lambda.js:32:36)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:78:25)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -371,7 +371,7 @@
               "new SingletonFunction (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-lambda\\lib\\singleton-lambda.js:32:36)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:78:25)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -401,7 +401,7 @@
               "new SingletonFunction (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-lambda\\lib\\singleton-lambda.js:32:36)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:78:25)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -412,10 +412,10 @@
             ]
           }
         ],
-        "/MyJSCCStaticWebsite/AssetParameters/b96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53/S3Bucket": [
+        "/MyJSCCStaticWebsite/AssetParameters/08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447e/S3Bucket": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "AssetParametersb96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53S3Bucket069AC6DC",
+            "data": "AssetParameters08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447eS3BucketD807BA5D",
             "trace": [
               "new FileAssetParameters (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:12:36)",
               "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:189:22)",
@@ -430,7 +430,7 @@
               "Array.map (<anonymous>)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:101:39)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -441,10 +441,10 @@
             ]
           }
         ],
-        "/MyJSCCStaticWebsite/AssetParameters/b96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53/S3VersionKey": [
+        "/MyJSCCStaticWebsite/AssetParameters/08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447e/S3VersionKey": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "AssetParametersb96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53S3VersionKey4BC7DDDE",
+            "data": "AssetParameters08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447eS3VersionKey82B48494",
             "trace": [
               "new FileAssetParameters (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:16:35)",
               "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:189:22)",
@@ -459,7 +459,7 @@
               "Array.map (<anonymous>)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:101:39)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -470,10 +470,10 @@
             ]
           }
         ],
-        "/MyJSCCStaticWebsite/AssetParameters/b96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53/ArtifactHash": [
+        "/MyJSCCStaticWebsite/AssetParameters/08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447e/ArtifactHash": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "AssetParametersb96b38a44ec15d6e4e55790e541a86e41a86674f6ac3ba5dc63eb1da72cc0e53ArtifactHash25CB8891",
+            "data": "AssetParameters08dbfc347c91aa4e974e5fcae426f3c635c288ec53ccb67199ba11560d3d447eArtifactHashBEC02B33",
             "trace": [
               "new FileAssetParameters (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:20:38)",
               "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:189:22)",
@@ -488,7 +488,7 @@
               "Array.map (<anonymous>)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:101:39)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -510,7 +510,7 @@
               "new SingletonFunction (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-lambda\\lib\\singleton-lambda.js:32:36)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:78:25)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -538,7 +538,7 @@
               "Array.map (<anonymous>)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:101:39)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",
@@ -559,7 +559,7 @@
               "new SingletonFunction (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-lambda\\lib\\singleton-lambda.js:32:36)",
               "new BucketDeployment (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\node_modules\\@aws-cdk\\aws-s3-deployment\\lib\\bucket-deployment.js:78:25)",
               "new StaticSite (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\static-site.js:50:5)",
-              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:5)",
+              "new MyStaticSiteStack (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:9:9)",
               "Object.<anonymous> (C:\\Users\\siranush_zakaryan\\Desktop\\nodejs-aws-shop-angular - Copy (2)\\cdk\\index.js:13:1)",
               "Module._compile (node:internal/modules/cjs/loader:1241:14)",
               "Module._extensions..js (node:internal/modules/cjs/loader:1295:10)",

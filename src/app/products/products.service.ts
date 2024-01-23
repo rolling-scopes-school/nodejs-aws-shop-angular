@@ -130,11 +130,23 @@ export class ProductsService extends ApiService {
       .pipe(map((resp) => resp.product));
   }
 
-  getProducts(): Observable<Product[]> {
-    const apiGatewayUrl =
-      'https://zbb338g8f1.execute-api.eu-west-1.amazonaws.com/prod/products';
-    const url = `${apiGatewayUrl}`;
+  // getProducts(): Observable<Product[]> {
+  //   const apiGatewayUrl =
+  //     'https://zbb338g8f1.execute-api.eu-west-1.amazonaws.com/prod/products';
+  //   const url = `${apiGatewayUrl}`;
 
+  //   return this.http.get<Product[]>(url);
+  // }
+
+  getProducts(): Observable<Product[]> {
+    if (!this.endpointEnabled('bff')) {
+      console.warn(
+        'Endpoint "bff" is disabled. To enable change your environment.ts config'
+      );
+      return this.http.get<Product[]>('/assets/products.json');
+    }
+
+    const url = this.getUrl('bff', 'products');
     return this.http.get<Product[]>(url);
   }
 
@@ -146,14 +158,5 @@ export class ProductsService extends ApiService {
     return this.getProducts().pipe(
       map((products) => products.filter((product) => ids.includes(product.id)))
     );
-  }
-
-  importProducts(fileName: string): Observable<{ signedUrl: string }> {
-    const apiGatewayUrl =
-      'https://2m3lsovje6.execute-api.eu-west-1.amazonaws.com/prod/import';
-
-    const url = `${apiGatewayUrl}?name=${fileName}`;
-
-    return this.http.get<{ signedUrl: string }>(url);
   }
 }
